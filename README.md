@@ -1,6 +1,6 @@
 # Open MUMPS by Example
 
-Open source implemantation of the M programming language.
+> **MUMPS** ("Massachusetts General Hospital Utility Multi-Programming System"), or **M**, is a general-purpose computer programming language originally designed in 1966 for the healthcare industry. Its differentiating feature is its "built-in" database, enabling high-level access to disk storage using simple symbolic program variables and subscripted arrays; similar to the variables used by most languages to access main memory. [Read more...](https://en.wikipedia.org/wiki/MUMPS)
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Open source implemantation of the M programming language.
 
 ## Quick Setup
 
-Download the [Mumps interpreter](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/mumps-18.02.src.tar.gz) and run the following commands:
+Download the open source distribution of the [Mumps interpreter](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/mumps-18.02.src.tar.gz) and run the following commands:
 
     tar -zxvf mumps-18.02.src.tar.gz
     cd mumpsc

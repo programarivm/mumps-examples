@@ -1,4 +1,4 @@
-# Open MUMPS by Example
+# GPL MUMPS by Example
 
 **MUMPS** ("Massachusetts General Hospital Utility Multi-Programming System"), or **M**, is a general-purpose computer programming language originally designed in 1966 for the healthcare industry. Its differentiating feature is its "built-in" database, enabling high-level access to disk storage using simple symbolic program variables and subscripted arrays; similar to the variables used by most languages to access main memory. [Read more...](https://en.wikipedia.org/wiki/MUMPS)
 
@@ -42,7 +42,7 @@ The resulting interpreter is located in `/usr/bin/mumps`.
 
 ## 1. The Very Basics
 
-### [`hello-world.mps`](https://github.com/programarivm/open-mumps-by-example/blob/master/01-the-very-basics/hello-world.mps)
+### [`hello-world.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world.mps)
     $ mumps 01-the-very-basics/hello-world.mps
     Hello world
 

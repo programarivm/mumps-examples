@@ -1,6 +1,15 @@
 # Open MUMPS by Example
 
-> **MUMPS** ("Massachusetts General Hospital Utility Multi-Programming System"), or **M**, is a general-purpose computer programming language originally designed in 1966 for the healthcare industry. Its differentiating feature is its "built-in" database, enabling high-level access to disk storage using simple symbolic program variables and subscripted arrays; similar to the variables used by most languages to access main memory. [Read more...](https://en.wikipedia.org/wiki/MUMPS)
+**MUMPS** ("Massachusetts General Hospital Utility Multi-Programming System"), or **M**, is a general-purpose computer programming language originally designed in 1966 for the healthcare industry. Its differentiating feature is its "built-in" database, enabling high-level access to disk storage using simple symbolic program variables and subscripted arrays; similar to the variables used by most languages to access main memory. [Read more...](https://en.wikipedia.org/wiki/MUMPS)
+
+The implementations currently available are:
+
+- [Intersystems (Caché)](http://www.intersystems.com/)
+- [FIS (GT.M)](http://www.fisglobal.com/products-technologyplatforms-gtm)
+- [MUMPS Database and Language by Ray Newman](http://sourceforge.net/projects/mumps/)
+- [Open Mumps](http://www.cs.uni.edu/~okane/)
+
+The examples in this tutorial are run with GPL Mumps.
 
 ## Prerequisites
 

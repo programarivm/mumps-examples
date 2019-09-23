@@ -1,6 +1,6 @@
 # Open MUMPS by Example
 
-Open source implemantation of the M programming language. 
+Open source implemantation of the M programming language.
 
 ## Prerequisites
 
@@ -31,6 +31,7 @@ The resulting interpreter is located in `/usr/bin/mumps`.
 
 ## 1. The Very Basics
 
+### [`hello-world.mps`](https://github.com/programarivm/open-mumps-by-example/blob/master/01-the-very-basics/hello-world.mps)
     $ mumps 01-the-very-basics/hello-world.mps
     Hello world
 

@@ -5,6 +5,8 @@
 ## Prerequisites
 
 - [The Mumps Programming Language](https://www.cs.uni.edu/~okane/)
+- [Mumps Language Users' Guide](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/ReadMe.pdf)
+- [Mumps Language Quick Introduction & Tutorial](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/MumpsTutorial.pdf)
 
 ## Quick Setup
 

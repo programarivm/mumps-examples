@@ -46,6 +46,19 @@ The resulting interpreter is located in `/usr/bin/mumps`.
     $ mumps 01-the-very-basics/hello-world.mps
     Hello world
 
+### [`hello-world-in-a-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world-in-a-loop.mps)
+    $ mumps hello-world-in-a-loop.mps 
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+
 ---
 
 ### Contributions

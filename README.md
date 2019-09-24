@@ -93,6 +93,33 @@ The resulting interpreter is located in `/usr/bin/mumps`.
     1 apple, 2 pears and 0 oranges were eaten!
     Now there are 21 fruits in the basket,
     the average fruit value is 7.
+
+### [`06-arrays.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/06-arrays.mps)
+    mumps 06-arrays.mps
+    Approaching the solar system:
+    Mercury
+    Venus
+    Earth
+    Mars
+    Jupiter
+    Saturn
+    Uranus
+    Neptune
+    Pluto
+
+    September 2019:
+    26 27 28 29 30 31 1
+    2 3 4 5 6 7 8
+    9 10 11 12 13 14 15
+    16 17 18 19 20 21 22
+    23 24 25 26 27 28 29
+    30 1 2 3 4 5 6
+
+    Genealogical tree:
+    Harry and Emily had Jack
+
+    Associative array:
+    Have you ever been to London?
 ---
 
 ### Contributions

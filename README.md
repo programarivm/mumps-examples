@@ -84,6 +84,15 @@ The resulting interpreter is located in `/usr/bin/mumps`.
     2:3 Hello world
     2:4 Hello world
     2:5 Hello world
+
+### [`05-arithmetic-operations.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/05-arithmetic-operations.mps)
+    mumps 05-arithmetic-operations.mps
+    There were 7 apples, 8 pears and 9 oranges,
+    a total of 24 fruits in a basket.
+    Then, something happened:
+    1 apple, 2 pears and 0 oranges were eaten!
+    Now there are 21 fruits in the basket,
+    the average fruit value is 7.
 ---
 
 ### Contributions

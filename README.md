@@ -120,6 +120,15 @@ The resulting interpreter is located in `/usr/bin/mumps`.
 
     Associative array:
     Have you ever been to London?
+
+## 2. User Defined Functions
+
+### [`01-factorial-by-reference.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/02-user-defined-functions/01-factorial-by-reference.mps)
+
+    mumps 01-factorial-by-reference.mps
+    Enter n: 5
+    5! = 120
+
 ---
 
 ### Contributions

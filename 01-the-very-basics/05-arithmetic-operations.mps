@@ -1,9 +1,10 @@
+#!/usr/bin/mumps
+; the following two are the first lines of a story
+
   set apples=7
   set pears=8
   set oranges=9
   set total=apples+pears+oranges
-
-; the following two are the first lines of a story
 
   write "There were ",apples," apples, ",pears," pears and ",oranges," oranges,",!
   write "a total of ",total," fruits in a basket.",!

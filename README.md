@@ -42,25 +42,12 @@ The resulting interpreter is located in `/usr/bin/mumps`.
 
 ## 1. The Very Basics
 
-### [`hello-world.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world.mps)
-    $ mumps 01-the-very-basics/hello-world.mps
+### [`01-hello-world.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/01-hello-world.mps)
+    $ mumps 01-hello-world.mps
     Hello world
 
-### [`hello-world-in-a-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world-in-a-loop.mps)
-    $ mumps hello-world-in-a-loop.mps
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-
-### [`hello-world-in-another-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world-in-another-loop.mps)
-    $ mumps hello-world-in-another-loop.mps
+### [`02-hello-world-in-a-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/02-hello-world-in-a-loop.mps)
+    $ mumps 02-hello-world-in-a-loop.mps
     Hello world
     Hello world
     Hello world
@@ -72,8 +59,21 @@ The resulting interpreter is located in `/usr/bin/mumps`.
     Hello world
     Hello world
 
-### [`hello-world-in-a-nested-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/hello-world-in-a-nested-loop.mps)
-    $ mumps hello-world-in-a-nested-loop.mps 
+### [`03-hello-world-in-another-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/03-hello-world-in-another-loop.mps)
+    $ mumps 03-hello-world-in-another-loop.mps
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+
+### [`04-hello-world-in-a-nested-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/04-hello-world-in-a-nested-loop.mps)
+    $ mumps 04-hello-world-in-a-nested-loop.mps
     1:1 Hello world
     1:2 Hello world
     1:3 Hello world

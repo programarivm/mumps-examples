@@ -27,7 +27,7 @@
 
   write d_e_f,!
 
-; here is the last line of the story
+; here are the last lines of this story
 
   set total=total-x-y-z
   set average=total/3

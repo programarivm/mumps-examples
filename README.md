@@ -191,6 +191,10 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Enter n: 5
     5! = 120
 
+### [`Fibonacci.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/Fibonacci.m)
+
+    Enter n: 9
+    F(9) = 34
 ---
 
 ### Contributions

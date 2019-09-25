@@ -186,6 +186,11 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Enter n: 5
     5! = 120
 
+### [`FactorialByValue.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/FactorialByValue.m)
+
+    Enter n: 5
+    5! = 120
+
 ---
 
 ### Contributions

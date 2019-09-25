@@ -82,26 +82,29 @@ To uninstall GT.M:
 
 ---
 
+## Run the Examples
+
+### GPL Mumps
+
+Use the Open Mumps interpreter:
+
+    mumps HelloWorld.m
+
+### GT.M
+
+Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
+
+    mumps -run ^HelloWorld
+
+---
+
 ## 1. The Very Basics
 
-### [`01-hello-world.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/01-hello-world.mps)
+### [`HelloWorld.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorld.mps)
 
     Hello world
 
-### [`02-hello-world-in-a-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/02-hello-world-in-a-loop.mps)
-
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-
-### [`03-hello-world-in-another-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/03-hello-world-in-another-loop.mps)
+### [`HelloWorldInLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInLoop.mps)
 
     Hello world
     Hello world
@@ -114,7 +117,20 @@ To uninstall GT.M:
     Hello world
     Hello world
 
-### [`04-hello-world-in-a-nested-loop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/04-hello-world-in-a-nested-loop.mps)
+### [`HelloWorldInAnotherLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInAnotherLoop.mps)
+
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+
+### [`HelloWorldInNestedLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInNestedLoop.mps)
 
     1:1 Hello world
     1:2 Hello world
@@ -127,7 +143,7 @@ To uninstall GT.M:
     2:4 Hello world
     2:5 Hello world
 
-### [`05-arithmetic-operations.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/05-arithmetic-operations.mps)
+### [`ArithmeticOperations.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/ArithmeticOperations.mps)
 
     There were 7 apples, 8 pears and 9 oranges,
     a total of 24 fruits in a basket.
@@ -136,7 +152,7 @@ To uninstall GT.M:
     Now there are 21 fruits in the basket,
     the average fruit value is 7.
 
-### [`06-arrays.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/06-arrays.mps)
+### [`Arrays.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/Arrays.mps)
 
     Approaching the solar system:
     Mercury
@@ -165,7 +181,7 @@ To uninstall GT.M:
 
 ## 2. User Defined Functions
 
-### [`01-factorial-by-reference.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/02-user-defined-functions/01-factorial-by-reference.mps)
+### [`FactorialByReference.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/02-user-defined-functions/FactorialByReference.mps)
 
     Enter n: 5
     5! = 120

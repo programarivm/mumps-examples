@@ -100,24 +100,11 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
 ## 1. The Very Basics
 
-### [`HelloWorld.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorld.mps)
+### [`HelloWorld.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/HelloWorld.mps)
 
     Hello world
 
-### [`HelloWorldInLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInLoop.mps)
-
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-    Hello world
-
-### [`HelloWorldInAnotherLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInAnotherLoop.mps)
+### [`HelloWorldInLoop.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/HelloWorldInLoop.mps)
 
     Hello world
     Hello world
@@ -130,7 +117,20 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Hello world
     Hello world
 
-### [`HelloWorldInNestedLoop.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/HelloWorldInNestedLoop.mps)
+### [`HelloWorldInAnotherLoop.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/HelloWorldInAnotherLoop.mps)
+
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+    Hello world
+
+### [`HelloWorldInNestedLoop.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/HelloWorldInNestedLoop.mps)
 
     1:1 Hello world
     1:2 Hello world
@@ -143,7 +143,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     2:4 Hello world
     2:5 Hello world
 
-### [`ArithmeticOperations.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/ArithmeticOperations.mps)
+### [`ArithmeticOperations.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/ArithmeticOperations.mps)
 
     There were 7 apples, 8 pears and 9 oranges,
     a total of 24 fruits in a basket.
@@ -152,7 +152,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Now there are 21 fruits in the basket,
     the average fruit value is 7.
 
-### [`Arrays.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/01-the-very-basics/Arrays.mps)
+### [`Arrays.mps`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/Arrays.mps)
 
     Approaching the solar system:
     Mercury
@@ -181,7 +181,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
 ## 2. User Defined Functions
 
-### [`FactorialByReference.mps`](https://github.com/programarivm/gpl-mumps-by-example/blob/master/02-user-defined-functions/FactorialByReference.mps)
+### [`FactorialByReference.mps`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/FactorialByReference.mps)
 
     Enter n: 5
     5! = 120

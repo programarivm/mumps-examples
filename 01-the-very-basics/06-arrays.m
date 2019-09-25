@@ -1,4 +1,4 @@
-#!/usr/bin/mumps
+
 ; unidimensional array
 
   write "Approaching the solar system:",!

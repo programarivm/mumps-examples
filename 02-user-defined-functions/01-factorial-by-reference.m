@@ -1,5 +1,3 @@
-#!/usr/bin/mumps
-
   write "Enter n: "
   read n
   write n,"! = "

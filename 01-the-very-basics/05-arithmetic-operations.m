@@ -1,4 +1,4 @@
-#!/usr/bin/mumps
+
 ; the following two are the first lines of a story
 
   set apples=7

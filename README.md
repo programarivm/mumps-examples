@@ -195,6 +195,35 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     $data(^gtree(0,1,1,1)) is 0
     $data(^gtree(0,0,0,0,0)) is 0
     $data(^gtree(0)) is 0
+
+### [`Crud.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/Crud.m)
+
+    User successfully created!
+
+    User successfully created!
+
+    User successfully fetched!
+    Username: alice
+    Email: alice-jones@no-reply.com
+    Full name: Alice Jones
+
+
+    User successfully updated!
+
+    User successfully fetched!
+    Username: amelia
+    Email: amelia-roberts@no-reply.com
+    Full name: Amelia Roberts
+
+    User successfully deleted!
+
+    User successfully fetched!
+    Username:
+    Email:
+    Full name:
+
+  > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/UserRoutines.m)
+
 ---
 
 ### Contributions

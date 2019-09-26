@@ -1,5 +1,4 @@
-  write "Enter n: "
-  read n,!
+  read "Enter n: ",n,!
   set result=$$factorial(n)
   write n,"! = ",result,!
   halt

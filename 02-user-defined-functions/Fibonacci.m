@@ -1,5 +1,4 @@
-  write "Enter n: "
-  read n,!
+  read "Enter n: ",n,!
   set result=$$fibonacci(n)
   write "F(",n,") = ",result,!
   halt

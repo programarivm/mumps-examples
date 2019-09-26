@@ -1,5 +1,4 @@
-  write "Enter n: "
-  read n,!
+  read "Enter n: ",n,!
   write n,"! = "
   do factorial(.n)
   write n,!

@@ -222,6 +222,22 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
     Enter n: 9
     F(9) = 34
+
+## 3. Databases
+
+### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/GenealogicalTree.m)
+
+    Genealogical tree:
+    ^gtree(0,1,1) is Jessica
+    $data(^gtree(0,2)) is 0
+    $data(^gtree(0,1,1,1)) is 1
+    $data(^gtree(0,0,0,0,0)) is 10
+    $data(^gtree(0)) is 11
+    Removing tree...
+    $data(^gtree(0,2)) is 0
+    $data(^gtree(0,1,1,1)) is 0
+    $data(^gtree(0,0,0,0,0)) is 0
+    $data(^gtree(0)) is 0
 ---
 
 ### Contributions

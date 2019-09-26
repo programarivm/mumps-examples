@@ -21,6 +21,7 @@ The examples in this tutorial are run with both GPL Mumps and GT.M.
 
 ### GT.M
 
+- [The GT.M Programmer's Guide](http://www.mumps.cz/gtm/books/pg/UNIX_manual/webhelp/content/preface.html)
 - [MUMPS Technology Portal](http://mumps.cz/)
 
 ### Additional Documentation
@@ -228,7 +229,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     $data(^gtree(0,1,1,1)) is 1
     $data(^gtree(0,0,0,0,0)) is 10
     $data(^gtree(0)) is 11
-    
+
     Removing tree...
     $data(^gtree(0,2)) is 0
     $data(^gtree(0,1,1,1)) is 0

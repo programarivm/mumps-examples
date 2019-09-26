@@ -9,9 +9,18 @@ The implementations currently available are:
 - [MUMPS Database and Language by Ray Newman](http://sourceforge.net/projects/mumps/)
 - [Open Mumps](http://www.cs.uni.edu/~okane/)
 
-The examples in this tutorial are run with both GPL Mumps and GT.M.
+The examples in this tutorial are run with GT.M.
 
 ## Prerequisites
+
+- [GT.M Administration and Operations Guide](http://mumps.cz/gtm/books/ao/UNIX_manual/ao_UNIX_screen.pdf)
+- [The GT.M Programmer's Guide](http://www.mumps.cz/gtm/books/pg/UNIX_manual/webhelp/content/preface.html)
+- [GT.M Message and Recovery Procedures Manual](http://www.mupip.pl/books/mr/manual/titlepage.html)
+- [MUMPS Technology Portal](http://mumps.cz/)
+
+### Additional Documentation
+
+- [Sourceforge](http://mumps.sourceforge.net/)
 
 ### GPL Mumps
 
@@ -19,51 +28,9 @@ The examples in this tutorial are run with both GPL Mumps and GT.M.
 - [Mumps Language Users' Guide](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/ReadMe.pdf)
 - [Mumps Language Quick Introduction & Tutorial](https://www.cs.uni.edu/~okane/source/MUMPS-MDH/MumpsTutorial.pdf)
 
-### GT.M
-
-- [The GT.M Programmer's Guide](http://www.mumps.cz/gtm/books/pg/UNIX_manual/webhelp/content/preface.html)
-- [MUMPS Technology Portal](http://mumps.cz/)
-
-### Additional Documentation
-
-- [Sourceforge](http://mumps.sourceforge.net/)
-
 ---
 
 ## Quick Setup
-
-### GPL Mumps
-
-To install the open source distribution of the Mumps interpreter:
-
-    cd /usr/local/src
-    wget https://www.cs.uni.edu/~okane/source/MUMPS-MDH/mumps-18.02.src.tar.gz
-    tar -zxvf mumps-18.02.src.tar.gz
-    cd mumpsc
-    ./ConfigureNative.script
-    ./BuildMumpsWithGlobalsInSingleUserNative.script
-
-The resulting interpreter is located in `/usr/bin/mumps`.
-
-    mumps
-
-    Mumps 17.30; Built: 16:05:53 Sep 23 2019
-    Float: double; DBMS: Native Stand Alone; Hardware math: yes; Int: int; Float digits: 6; Cache: 33; Block: 2048; FP Bits: N/A
-    http://threadsafebooks.com/
-    Enter HALT to exit
-
-    > write "Hello world"
-    Hello world
-    > halt
-    EOF - goodbye ...
-
-To uninstall GPL Mumps:
-
-    cd /usr/local/src/mumpsc
-    make uninstall
-    rm -f /usr/bin/mumps*
-
-### GT.M
 
 To install GT.M on Debian based OS:
 
@@ -71,7 +38,8 @@ To install GT.M on Debian based OS:
 
 Set up the environment variables:
 
-    source /usr/lib/x86_64-linux-gnu/fis-gtm/V6.3-003A_x86_64/gtmprofile
+    cd /usr/lib/x86_64-linux-gnu/fis-gtm/V6.3-003A_x86_64
+    source gtmprofile
 
 Open the GT.M prompt:
 
@@ -88,14 +56,6 @@ To uninstall GT.M:
 ---
 
 ## Run the Examples
-
-### GPL Mumps
-
-Use the Open Mumps interpreter:
-
-    mumps HelloWorld.m
-
-### GT.M
 
 Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 

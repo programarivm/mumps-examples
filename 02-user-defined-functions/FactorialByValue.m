@@ -1,11 +1,11 @@
-  read "Enter n: ",n,!
-  set result=$$factorial(n)
-  write n,"! = ",result,!
-  halt
+  r "Enter n: ",n,!
+  s result=$$factorial(n)
+  w n,"! = ",result,!
+  h
 
 factorial(n)
-  if n=1 quit 1
-  set k=1
-  for i=1:1:n do
-  . set k=k*i
-  quit k
+  i n=1 q 1
+  s k=1
+  f i=1:1:n d
+  . s k=k*i
+  q k

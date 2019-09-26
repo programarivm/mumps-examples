@@ -47,7 +47,7 @@
 ; 0, the node does not exist
 ; 0, the node does not exist
 
-  w "Removing tree...",!
+  w !,"Removing tree...",!
 
   k ^gtree
 

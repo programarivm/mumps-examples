@@ -225,7 +225,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
 ## 3. Databases
 
-### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/GenealogicalTree.m)
+### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/03-databases/GenealogicalTree.m)
 
     Genealogical tree:
     ^gtree(0,1,1) is Jessica

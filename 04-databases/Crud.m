@@ -28,9 +28,9 @@
 
   s ok=$$set^UserRoutines(1,"amelia~password~amelia-roberts@no-reply.com~Amelia Roberts")
   i ok=1 d
-  . w !,"User successfully updated!",!,!
+  . w "User successfully updated!",!,!
   e  d
-  . w !,"Whoops! The user could not be updated.",!,!
+  . w "Whoops! The user could not be updated.",!,!
 
 ; fetch a user
 

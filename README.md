@@ -207,7 +207,6 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Email: alice-jones@no-reply.com
     Full name: Alice Jones
 
-
     User successfully updated!
 
     User successfully fetched!

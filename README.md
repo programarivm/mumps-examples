@@ -23,6 +23,10 @@ The examples in this tutorial are run with both GPL Mumps and GT.M.
 
 - [MUMPS Technology Portal](http://mumps.cz/)
 
+### Additional Documentation
+
+- [Sourceforge](http://mumps.sourceforge.net/)
+
 ---
 
 ## Quick Setup
@@ -181,30 +185,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
 ### [`ArraysShortened.m`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/ArraysShortened.m)
 
-    Approaching the solar system:
-    Mercury
-    Venus
-    Earth
-    Mars
-    Jupiter
-    Saturn
-    Uranus
-    Neptune
-    Pluto
-
-    September 2019:
-    26 27 28 29 30 31 1
-    2 3 4 5 6 7 8
-    9 10 11 12 13 14 15
-    16 17 18 19 20 21 22
-    23 24 25 26 27 28 29
-    30 1 2 3 4 5 6
-
-    Genealogical tree:
-    Harry and Emily had Jack
-
-    Associative array:
-    Have you ever been to London?
+> The output obtained is the same as that in [`Arrays.m`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/Arrays.m)
 
 ## 2. User Defined Functions
 
@@ -223,9 +204,23 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Enter n: 9
     F(9) = 34
 
-## 3. Databases
+## 3. Routines
 
-### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/03-databases/GenealogicalTree.m)
+### [`Main.m`](https://github.com/programarivm/mumps-examples/blob/master/03-routines/Main.m)
+
+    Hello!
+    Enter n: 9
+
+    areaCircle(9) = 254.469
+    fibonacci(9) = 34
+    factorialByVal(9) = 362880
+    factorialByRef(9) = 362880
+
+> For further details also visit [MyMath.m](https://github.com/programarivm/mumps-examples/blob/master/03-routines/MyMath.m)
+
+## 4. Databases
+
+### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/GenealogicalTree.m)
 
     Genealogical tree:
     ^gtree(0,1,1) is Jessica

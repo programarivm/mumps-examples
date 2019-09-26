@@ -177,7 +177,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     factorialByVal(9) = 362880
     factorialByRef(9) = 362880
 
-> For further details also visit [MyMath.m](https://github.com/programarivm/mumps-examples/blob/master/03-routines/MyMath.m)
+> For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/03-routines/MyMathRoutines.m)
 
 ## 4. Databases
 

@@ -1,17 +1,17 @@
 
-  d hello^MyMath
+  d hello^MyMathRoutines
 
   r "Enter n: ",n,!
 
-  s areaCircle=$$areaCircle^MyMath(n)
+  s areaCircle=$$areaCircle^MyMathRoutines(n)
   w "areaCircle(",n,") = ",areaCircle,!
 
-  s fibonacci=$$fibonacci^MyMath(n)
+  s fibonacci=$$fibonacci^MyMathRoutines(n)
   w "fibonacci(",n,") = ",fibonacci,!
 
-  s factorialByVal=$$factorialByVal^MyMath(n)
+  s factorialByVal=$$factorialByVal^MyMathRoutines(n)
   w "factorialByVal(",n,") = ",factorialByVal,!
 
   s m=n
-  do factorialByRef^MyMath(.n)
+  do factorialByRef^MyMathRoutines(.n)
   w "factorialByRef(",m,") = ",n,!

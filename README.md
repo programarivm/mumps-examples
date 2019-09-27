@@ -229,12 +229,12 @@ For further details also visit:
 
 ### [`basic-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/Main.m)
 
-    Post fetched by post:
+    Post fetched:
     slug: lorem-ipsum
     title: Lorem ipsum
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-    Post fetched by post:
+    Post fetched:
     slug: donec-pede-justo
     title: Donec pede justo
     description: Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
@@ -243,10 +243,10 @@ For further details also visit:
     lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-    Comment fetched by comment:
+    Comment fetched:
     description: This is awesome! Thank you.
 
-    Comment fetched by comment:
+    Comment fetched:
     description: Thank you so much for sharing this.
 
     Database successfully dropped!

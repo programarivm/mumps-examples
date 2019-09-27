@@ -18,14 +18,14 @@
 
 ; fetch posts by post
 
-  do fetchByPost^PostRoutines(1,.data)
-  w "Post fetched by post:",!
+  do fetch^PostRoutines(1,.data)
+  w "Post fetched:",!
   w "slug: ",data("slug"),!
   w "title: ",data("title"),!
   w "description: ",data("description"),!
 
-  do fetchByPost^PostRoutines(2,.data)
-  w !,"Post fetched by post:",!
+  do fetch^PostRoutines(2,.data)
+  w !,"Post fetched:",!
   w "slug: ",data("slug"),!
   w "title: ",data("title"),!
   w "description: ",data("description"),!
@@ -39,12 +39,12 @@
 
 ; fetch comments
 
-  do fetchByComment^CommentRoutines(1,.data)
-  w !,"Comment fetched by comment:",!
+  do fetch^CommentRoutines(1,.data)
+  w !,"Comment fetched:",!
   w "description: ",data("description"),!
 
-  do fetchByComment^CommentRoutines(2,.data)
-  w !,"Comment fetched by comment:",!
+  do fetch^CommentRoutines(2,.data)
+  w !,"Comment fetched:",!
   w "description: ",data("description"),!
 
 ; drop database

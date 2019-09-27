@@ -65,8 +65,8 @@
 
   for i=1:1:6 do
   . for j=1:1:7 do
-  .. write september(i,j)," "
-  .. if j=7 write "",!
+  . . write september(i,j)," "
+  . . if j=7 write "",!
 
 ; array as a tree
 

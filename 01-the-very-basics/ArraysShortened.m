@@ -68,8 +68,8 @@
 
   f i=1:1:6 d
   . f j=1:1:7 d
-  .. w september(i,j)," "
-  .. i j=7 w "",!
+  . . w september(i,j)," "
+  . . i j=7 w "",!
 
 ; array as a tree
 

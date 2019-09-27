@@ -1,18 +1,22 @@
 
-fetch(n,data)
+fetchByComment(idComment,data)
   n record
   k data
-  i n="" q 0
-  s record=$get(^comments(n))
-  s data("description")=$piece(record,"~",1)
-  s data("id_post")=$piece(record,"~",2)
-  q 1
+  i idComment="" q 0
+  s lev1=""
+  s lev2=""
+  f  s lev1=$o(^comments(lev1)) q:lev1=""  d
+  . f  s lev2=$o(^comments(lev1,lev2)) q:lev2=""  d
+  . . i lev1=idComment d
+  . . . s record=$get(^comments(idComment,lev2))
+  . . . s data("description")=$piece(record,"~",1)
+  . . . q
+  q
 
-set(n,data)
-  i n="" q 0
+set(idComment,idPost,data)
+  i idComment=""!idPost="" q 0
   s description=$piece(data,"~",1)
-  s idPost=$piece(data,"~",2)
-  s ^comments(n)=description_"~"_idPost
+  s ^comments(idComment,idPost)=description
   q 1
 
 remove(n)

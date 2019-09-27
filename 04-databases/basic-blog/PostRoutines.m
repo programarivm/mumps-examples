@@ -1,22 +1,26 @@
 
-fetch(n,data)
+fetchByPost(idPost,data)
   n record
   k data
-  i n="" q 0
-  s record=$get(^posts(n))
-  s data("slug")=$piece(record,"~",1)
-  s data("title")=$piece(record,"~",2)
-  s data("description")=$piece(record,"~",3)
-  s data("id_user")=$piece(record,"~",4)
-  q 1
+  i idPost="" q 0
+  s lev1=""
+  s lev2=""
+  f  s lev1=$o(^posts(lev1)) q:lev1=""  d
+  . f  s lev2=$o(^posts(lev1,lev2)) q:lev2=""  d
+  . . i lev1=idPost d
+  . . . s record=$get(^posts(idPost,lev2))
+  . . . s data("slug")=$piece(record,"~",1)
+  . . . s data("title")=$piece(record,"~",2)
+  . . . s data("description")=$piece(record,"~",3)
+  . . . q
+  q
 
-set(n,data)
-  i n="" q 0
+set(idPost,idUser,data)
+  i idPost=""!idUser="" q 0
   s slug=$piece(data,"~",1)
   s title=$piece(data,"~",2)
   s description=$piece(data,"~",3)
-  s idUser=$piece(data,"~",4)
-  s ^posts(n)=slug_"~"_title_"~"_description_"~"_idUser
+  s ^posts(idPost,idUser)=slug_"~"_title_"~"_description
   q 1
 
 remove(n)

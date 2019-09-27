@@ -199,31 +199,33 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 ### [`simple-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/Main.m)
 
     User successfully created!
-
     User successfully created!
 
     User successfully fetched!
-    Username: alice
-    Email: alice-jones@no-reply.com
-    Full name: Alice Jones
+    username: alice
+    email: alice-jones@no-reply.com
+    fullname: Alice Jones
 
     User successfully updated!
 
     User successfully fetched!
-    Username: amelia
-    Email: amelia-roberts@no-reply.com
-    Full name: Amelia Roberts
+    username: amelia
+    email: amelia-roberts@no-reply.com
+    fullname: Amelia Roberts
 
     User successfully deleted!
 
     User successfully fetched!
-    Username:
-    Email:
-    Full name:
+    username:
+    email:
+    fullname:
 
     Database successfully dropped!
 
-  > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/UserRoutines.m)
+For further details also visit:
+
+- [`DatabaseRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/DatabaseRoutines.m)
+- [`UserRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/UserRoutines.m)
 
 ### [`blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/Main.m)
 

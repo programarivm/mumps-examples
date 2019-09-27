@@ -225,6 +225,34 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
   > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/UserRoutines.m)
 
+### [`blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/Main.m)
+
+    User successfully created!
+    User successfully created!
+    Post successfully created!
+    Post successfully created!
+    Comment successfully created!
+    Comment successfully created!
+
+    Post successfully fetched!
+    slug: lorem-ipsum
+    title: Lorem ipsum
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    id_user: 1
+
+    Comment successfully fetched!
+    description: Thank you so much for sharing this.
+    id_post: 2
+
+    Database successfully dropped!
+
+For further details also visit:
+
+- [`CommentRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/CommentRoutines.m)
+- [`DatabaseRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/DatabaseRoutines.m)
+- [`PostRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/PostRoutines.m)
+- [`UserRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/blog/UserRoutines.m)
+
 ---
 
 ### Contributions

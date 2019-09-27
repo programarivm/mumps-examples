@@ -16,28 +16,35 @@
   s ok=$$set^CommentRoutines(1,1,"This is awesome! Thank you.")
   s ok=$$set^CommentRoutines(2,2,"Thank you so much for sharing this.")
 
-; fetch posts
+; fetch posts by post
 
   do fetchByPost^PostRoutines(1,.data)
-  w "Post fetched:",!
+  w "Post fetched by post:",!
   w "slug: ",data("slug"),!
   w "title: ",data("title"),!
   w "description: ",data("description"),!
 
   do fetchByPost^PostRoutines(2,.data)
-  w !,"Post fetched:",!
+  w !,"Post fetched by post:",!
   w "slug: ",data("slug"),!
   w "title: ",data("title"),!
   w "description: ",data("description"),!
 
+; fetch posts by user
+
+  do fetchByUser^PostRoutines(1,.data)
+  w !,"Posts fetched by user:",!
+  w data(1),!
+  w data(2),!
+
 ; fetch comments
 
   do fetchByComment^CommentRoutines(1,.data)
-  w !,"Comment fetched:",!
+  w !,"Comment fetched by comment:",!
   w "description: ",data("description"),!
 
   do fetchByComment^CommentRoutines(2,.data)
-  w !,"Comment fetched:",!
+  w !,"Comment fetched by comment:",!
   w "description: ",data("description"),!
 
 ; drop database

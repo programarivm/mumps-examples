@@ -229,22 +229,25 @@ For further details also visit:
 
 ### [`basic-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/Main.m)
 
-    User successfully created!
-    User successfully created!
-    Post successfully created!
-    Post successfully created!
-    Comment successfully created!
-    Comment successfully created!
-
-    Post successfully fetched!
+    Post fetched by post:
     slug: lorem-ipsum
     title: Lorem ipsum
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    id_user: 1
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-    Comment successfully fetched!
+    Post fetched by post:
+    slug: donec-pede-justo
+    title: Donec pede justo
+    description: Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+
+    Posts fetched by user:
+    lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+
+    Comment fetched by comment:
+    description: This is awesome! Thank you.
+
+    Comment fetched by comment:
     description: Thank you so much for sharing this.
-    id_post: 2
 
     Database successfully dropped!
 

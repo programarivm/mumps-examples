@@ -15,6 +15,19 @@ fetchByPost(idPost,data)
   . . . q
   q
 
+fetchByUser(idUser,data)
+  k data
+  i idUser="" q 0
+  s lev1=""
+  s lev2=""
+  s count=1
+  f  s lev1=$o(^posts(lev1)) q:lev1=""  d
+  . f  s lev2=$o(^posts(lev1,lev2)) q:lev2=""  d
+  . . i lev2=idUser d
+  . . . s data(count)=$get(^posts(lev1,idUser))
+  . . . s count=count+1
+  q
+
 set(idPost,idUser,data)
   i idPost=""!idUser="" q 0
   s slug=$piece(data,"~",1)

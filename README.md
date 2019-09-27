@@ -221,6 +221,8 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Email:
     Full name:
 
+    Database successfully dropped!
+
   > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/UserRoutines.m)
 
 ---

@@ -58,6 +58,14 @@
   . w "User successfully fetched!",!
   . w "Username: ",data("username"),!
   . w "Email: ",data("email"),!
-  . w "Full name: ",data("fullname"),!
+  . w "Full name: ",data("fullname"),!,!
   e  d
-  . w "Whoops! The user could not be fetched.",!
+  . w "Whoops! The user could not be fetched.",!,!
+
+; drop database
+
+  s ok=$$drop^DatabaseRoutines()
+  i ok=1 d
+  . w "Database successfully dropped!",!
+  e  d
+  . w "Whoops! The database could not be dropped.",!

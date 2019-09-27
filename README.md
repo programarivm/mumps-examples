@@ -196,7 +196,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     $data(^gtree(0,0,0,0,0)) is 0
     $data(^gtree(0)) is 0
 
-### [`basic-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-crud/Main.m)
+### [`basic-sql-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/Main.m)
 
     User successfully created!
     User successfully created!
@@ -224,10 +224,10 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
 
 For further details also visit:
 
-- [`DatabaseRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-crud/DatabaseRoutines.m)
-- [`UserRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-crud/UserRoutines.m)
+- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/routines/Database.m)
+- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/routines/User.m)
 
-### [`basic-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/Main.m)
+### [`basic-sql-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/Main.m)
 
     Post fetched:
     slug: lorem-ipsum
@@ -253,10 +253,10 @@ For further details also visit:
 
 For further details also visit:
 
-- [`CommentRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/CommentRoutines.m)
-- [`DatabaseRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/DatabaseRoutines.m)
-- [`PostRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/PostRoutines.m)
-- [`UserRoutines.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-blog/UserRoutines.m)
+- [`Comment.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Comment.m)
+- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Database.m)
+- [`Post.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Post.m)
+- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/User.m)
 
 ---
 

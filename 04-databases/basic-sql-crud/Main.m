@@ -1,13 +1,13 @@
 
 ; create users
 
-  s ok=$$set^UserRoutines(1,"alice~password~alice-jones@no-reply.com~Alice Jones")
+  s ok=$$set^User(1,"alice~password~alice-jones@no-reply.com~Alice Jones")
   i ok=1 d
   . w "User successfully created!",!
   e  d
   . w "Whoops! The user could not be created.",!
 
-  s ok=$$set^UserRoutines(2,"bob~password~bob-smith@no-reply.com~Bob Smith")
+  s ok=$$set^User(2,"bob~password~bob-smith@no-reply.com~Bob Smith")
   i ok=1 d
   . w "User successfully created!",!
   e  d
@@ -15,7 +15,7 @@
 
 ; fetch a user
 
-  s ok=$$fetch^UserRoutines(1,.data)
+  s ok=$$fetch^User(1,.data)
   i ok=1 d
   . w !,"User successfully fetched!",!
   . w "username: ",data("username"),!
@@ -26,7 +26,7 @@
 
 ; update a user
 
-  s ok=$$set^UserRoutines(1,"amelia~password~amelia-roberts@no-reply.com~Amelia Roberts")
+  s ok=$$set^User(1,"amelia~password~amelia-roberts@no-reply.com~Amelia Roberts")
   i ok=1 d
   . w !,"User successfully updated!",!
   e  d
@@ -34,7 +34,7 @@
 
 ; fetch a user
 
-  s ok=$$fetch^UserRoutines(1,.data)
+  s ok=$$fetch^User(1,.data)
   i ok=1 d
   . w !,"User successfully fetched!",!
   . w "username: ",data("username"),!
@@ -45,7 +45,7 @@
 
 ; delete a user
 
-  s ok=$$remove^UserRoutines(2)
+  s ok=$$remove^User(2)
   i ok=1 d
   . w !,"User successfully deleted!",!
   e  d
@@ -53,7 +53,7 @@
 
 ; fetch a user
 
-  s ok=$$fetch^UserRoutines(2,.data)
+  s ok=$$fetch^User(2,.data)
   i ok=1 d
   . w !,"User successfully fetched!",!
   . w "username: ",data("username"),!
@@ -64,7 +64,7 @@
 
 ; drop database
 
-  s ok=$$drop^DatabaseRoutines()
+  s ok=$$drop^Database()
   i ok=1 d
   . w !,"Database successfully dropped!",!
   e  d

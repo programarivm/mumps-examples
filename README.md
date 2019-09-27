@@ -196,7 +196,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     $data(^gtree(0,0,0,0,0)) is 0
     $data(^gtree(0)) is 0
 
-### [`Crud.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/Crud.m)
+### [`simple-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/Main.m)
 
     User successfully created!
 
@@ -221,7 +221,7 @@ Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
     Email:
     Full name:
 
-  > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/UserRoutines.m)
+  > For further details also visit [UserRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/04-databases/simple-crud/UserRoutines.m)
 
 ---
 

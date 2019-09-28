@@ -23,28 +23,24 @@ fetchByCategory(id,data)
   s lev1=""
   s lev2=""
   s lev3=""
-  s count=1
   f  s lev1=$o(^posts(lev1)) q:lev1=""  d
   . f  s lev2=$o(^posts(lev1,lev2)) q:lev2=""  d
   . . f  s lev3=$o(^posts(lev1,lev2,lev3)) q:lev3=""  d
   . . . i lev2=id d
-  . . . . s data(count)=$get(^posts(lev1,lev2,lev3))
-  . . . . s count=count+1
+  . . . . s data(lev1,lev2,lev3)=$get(^posts(lev1,lev2,lev3))
   q
 
-fetchByUser(idUser,data)
+fetchByUser(id,data)
   k data
-  i idUser="" q 0
+  i id="" q 0
   s lev1=""
   s lev2=""
   s lev3=""
-  s count=1
   f  s lev1=$o(^posts(lev1)) q:lev1=""  d
   . f  s lev2=$o(^posts(lev1,lev2)) q:lev2=""  d
   . . f  s lev3=$o(^posts(lev1,lev2,lev3)) q:lev3=""  d
-  . . . i lev3=idUser d
-  . . . . s data(count)=$get(^posts(lev1,lev2,lev3))
-  . . . . s count=count+1
+  . . . i lev3=id d
+  . . . . s data(lev1,lev2,lev3)=$get(^posts(lev1,lev2,lev3))
   q
 
 set(id,idCategory,idUser,data)

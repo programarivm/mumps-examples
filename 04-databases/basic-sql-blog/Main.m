@@ -1,4 +1,9 @@
 
+  zlink "routines/Comment"
+  zlink "routines/Database"
+  zlink "routines/Post"
+  zlink "routines/User"
+
 ; create users
 
   s ok=$$set^User(1,"alice~password~alice-jones@no-reply.com~Alice Jones")

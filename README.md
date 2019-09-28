@@ -38,8 +38,7 @@ To install GT.M on Debian based OS:
 
 Set up the environment variables:
 
-    cd /usr/lib/x86_64-linux-gnu/fis-gtm/V6.3-003A_x86_64
-    source gtmprofile
+    source /usr/lib/x86_64-linux-gnu/fis-gtm/V6.3-003A_x86_64/gtmprofile
 
 Open the GT.M prompt:
 
@@ -57,9 +56,17 @@ To uninstall GT.M:
 
 ## Run the Examples
 
-Copy the examples into your `~/.fis-gtm/V6.3-003A_x86_64/r` folder and run:
+Copy the example of your choice into `$gtmdir/$gtmver/r`:
 
-    mumps -run ^HelloWorld
+    cp -r <your-folder>/mumps-examples/04-databases/basic-sql-blog/* $gtmdir/$gtmver/r
+
+Or alternatively create a symbolic link:
+
+    ln -s <your-folder>/mumps-examples/04-databases/basic-sql-blog/*  ~/.fis-gtm/V6.3-003A_x86_64/r
+
+Then run:
+
+    mumps -run ^Main
 
 ---
 

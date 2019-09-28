@@ -59,7 +59,7 @@
   f  s lev1=$o(data(lev1)) q:lev1=""  d
   . f  s lev2=$o(data(lev1,lev2)) q:lev2=""  d
   . . f  s lev3=$o(data(lev1,lev2,lev3)) q:lev3=""  d
-  . . . w data(lev1,lev2,lev3),!
+  . . . w "(",lev1,",",lev2,",",lev3,") = ",data(lev1,lev2,lev3),!
 
 ; fetch posts by user
 
@@ -71,7 +71,7 @@
   f  s lev1=$o(data(lev1)) q:lev1=""  d
   . f  s lev2=$o(data(lev1,lev2)) q:lev2=""  d
   . . f  s lev3=$o(data(lev1,lev2,lev3)) q:lev3=""  d
-  . . . w data(lev1,lev2,lev3),!
+  . . . w "(",lev1,",",lev2,",",lev3,") = ",data(lev1,lev2,lev3),!
 
 ; fetch a comment
 

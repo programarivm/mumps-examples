@@ -236,30 +236,30 @@ For further details also visit:
 
 ### [`basic-sql-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/Main.m)
 
+    Category fetched:
+    description: Foo
+
     Post fetched:
     slug: lorem-ipsum
     title: Lorem ipsum
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-    Post fetched:
-    slug: donec-pede-justo
-    title: Donec pede justo
-    description: Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+    Posts fetched by category:
+    (3,3,2) = curabitur-ullamcorper-ultricies~Curabitur ullamcorper ultricies~Curabitur ullamcorper ultricies nisi.
+    (4,3,2) = donec-vitae-sapien~Donec vitae sapien~Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
 
     Posts fetched by user:
-    lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+    (1,1,1) = lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    (2,1,1) = donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
     Comment fetched:
     description: This is awesome! Thank you.
-
-    Comment fetched:
-    description: Thank you so much for sharing this.
 
     Database successfully dropped!
 
 For further details also visit:
 
+- [`Category.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Category.m)
 - [`Comment.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Comment.m)
 - [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Database.m)
 - [`Post.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Post.m)

@@ -244,11 +244,11 @@ For further details also visit:
     title: Lorem ipsum
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-    Post fetched by category (3):
+    Posts fetched by category (3):
     (3,3,2) = curabitur-ullamcorper-ultricies~Curabitur ullamcorper ultricies~Curabitur ullamcorper ultricies nisi.
     (4,3,2) = donec-vitae-sapien~Donec vitae sapien~Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
 
-    Post fetched by category (1):
+    Posts fetched by user (1):
     (1,1,1) = lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     (2,1,1) = donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 

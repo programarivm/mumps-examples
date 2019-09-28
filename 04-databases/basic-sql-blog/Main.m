@@ -55,7 +55,7 @@
 
   s id=3
   do fetchByCategory^Post(id,.data)
-  w !,"Post fetched by category (",id,"):",!
+  w !,"Posts fetched by category (",id,"):",!
   s lev1=""
   s lev2=""
   s lev3=""
@@ -68,7 +68,7 @@
 
   s id=1
   do fetchByUser^Post(id,.data)
-  w !,"Post fetched by category (",id,"):",!
+  w !,"Posts fetched by user (",id,"):",!
   s lev1=""
   s lev2=""
   s lev3=""

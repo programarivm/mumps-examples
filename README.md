@@ -64,7 +64,7 @@ Or alternatively create a symbolic link:
 
     ln -s <your-folder>/mumps-examples/04-databases/basic-sql-blog/*  ~/.fis-gtm/V6.3-003A_x86_64/r
 
-Then run:
+Then run the example:
 
     mumps -run ^Main
 

@@ -37,22 +37,25 @@
 
 ; fetch a category
 
-  do fetch^Category(1,.data)
-  w "Category fetched:",!
+  s id=3
+  do fetch^Category(id,.data)
+  w "Category fetched (",id,"):",!
   w "description: ",data("description"),!
 
 ; fetch a post
 
-  do fetch^Post(1,.data)
-  w !,"Post fetched:",!
+  s id=1
+  do fetch^Post(id,.data)
+  w !,"Post fetched (",id,"):",!
   w "slug: ",data("slug"),!
   w "title: ",data("title"),!
   w "description: ",data("description"),!
 
 ; fetch posts by category
 
-  do fetchByCategory^Post(3,.data)
-  w !,"Posts fetched by category:",!
+  s id=3
+  do fetchByCategory^Post(id,.data)
+  w !,"Post fetched by category (",id,"):",!
   s lev1=""
   s lev2=""
   s lev3=""
@@ -63,8 +66,9 @@
 
 ; fetch posts by user
 
-  do fetchByUser^Post(1,.data)
-  w !,"Posts fetched by user:",!
+  s id=1
+  do fetchByUser^Post(id,.data)
+  w !,"Post fetched by category (",id,"):",!
   s lev1=""
   s lev2=""
   s lev3=""
@@ -75,8 +79,9 @@
 
 ; fetch a comment
 
-  do fetch^Comment(1,.data)
-  w !,"Comment fetched:",!
+  s id=1
+  do fetch^Comment(id,.data)
+  w !,"Comment fetched (",id,"):",!
   w "description: ",data("description"),!
 
 ; drop database

@@ -323,7 +323,6 @@ Would you help make this tutorial better? Contributions are welcome.
 
 - Feel free to send a pull request
 - Drop an email at info@programarivm.com with the subject "Open MUMPS by Example"
-- Leave me a comment on [Twitter](https://twitter.com/programarivm)
-- Say hello on [Google+](https://plus.google.com/+Programarivm)
+- Say hello on [Twitter](https://twitter.com/programarivm)
 
 Many thanks.

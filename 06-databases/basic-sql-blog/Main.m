@@ -35,54 +35,54 @@
   s ok=$$set^Comment(1,1,"This is awesome! Thank you.")
   s ok=$$set^Comment(2,2,"Thank you so much for sharing this.")
 
+; write redords
+
+  write "Users: ",!
+  zwrite ^users
+
+  write !,"Categories: ",!
+  zwrite ^categories
+
+  write !,"Posts: ",!
+  zwrite ^posts
+
+  write !,"Comments: ",!
+  zwrite ^comments
+
 ; fetch a category
 
   s id=3
   do fetch^Category(id,.data)
-  w "Category fetched (",id,"):",!
-  w "description: ",data("description"),!
+  w !,"Category fetched (",id,"):",!
+  zwrite data
 
 ; fetch a post
 
   s id=1
   do fetch^Post(id,.data)
   w !,"Post fetched (",id,"):",!
-  w "slug: ",data("slug"),!
-  w "title: ",data("title"),!
-  w "description: ",data("description"),!
+  zwrite data
 
 ; fetch posts by category
 
   s id=3
   do fetchByCategory^Post(id,.data)
   w !,"Posts fetched by category (",id,"):",!
-  s lev1=""
-  s lev2=""
-  s lev3=""
-  f  s lev1=$o(data(lev1)) q:lev1=""  d
-  . f  s lev2=$o(data(lev1,lev2)) q:lev2=""  d
-  . . f  s lev3=$o(data(lev1,lev2,lev3)) q:lev3=""  d
-  . . . w "(",lev1,",",lev2,",",lev3,") = ",data(lev1,lev2,lev3),!
+  zwrite data
 
 ; fetch posts by user
 
   s id=1
   do fetchByUser^Post(id,.data)
   w !,"Posts fetched by user (",id,"):",!
-  s lev1=""
-  s lev2=""
-  s lev3=""
-  f  s lev1=$o(data(lev1)) q:lev1=""  d
-  . f  s lev2=$o(data(lev1,lev2)) q:lev2=""  d
-  . . f  s lev3=$o(data(lev1,lev2,lev3)) q:lev3=""  d
-  . . . w "(",lev1,",",lev2,",",lev3,") = ",data(lev1,lev2,lev3),!
+  zwrite data
 
 ; fetch a comment
 
   s id=1
   do fetch^Comment(id,.data)
   w !,"Comment fetched (",id,"):",!
-  w "description: ",data("description"),!
+  zwrite data
 
 ; drop database
 

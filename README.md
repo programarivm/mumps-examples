@@ -228,27 +228,34 @@ Then run the example:
 
 ### [`basic-sql-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-crud/Main.m)
 
-    User successfully created!
-    User successfully created!
+    User created:
+    ^users(1)="alice~password~alice-jones@no-reply.com~Alice Jones"
 
-    User successfully fetched!
-    username: alice
-    email: alice-jones@no-reply.com
-    fullname: Alice Jones
+    User created:
+    ^users(2)="bob~password~bob-smith@no-reply.com~Bob Smith"
 
-    User successfully updated!
+    User fetched (1):
+    data("email")="alice-jones@no-reply.com"
+    data("fullname")="Alice Jones"
+    data("password")="password"
+    data("username")="alice"
 
-    User successfully fetched!
-    username: amelia
-    email: amelia-roberts@no-reply.com
-    fullname: Amelia Roberts
+    User updated (1):
+    ^users(1)="amelia~password~amelia-roberts@no-reply.com~Amelia Roberts"
 
-    User successfully deleted!
+    User fetched (1):
+    data("email")="amelia-roberts@no-reply.com"
+    data("fullname")="Amelia Roberts"
+    data("password")="password"
+    data("username")="amelia"
 
-    User successfully fetched!
-    username:
-    email:
-    fullname:
+    User deleted (2)
+
+    User fetched (2):
+    data("email")=""
+    data("fullname")=""
+    data("password")=""
+    data("username")=""
 
     Database successfully dropped!
 
@@ -259,24 +266,44 @@ For further details also visit:
 
 ### [`basic-sql-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/Main.m)
 
+    Users:
+    ^users(1)="alice~password~alice-jones@no-reply.com~Alice Jones"
+    ^users(2)="bob~password~bob-smith@no-reply.com~Bob Smith"
+
+    Categories:
+    ^categories(1)="foo~Foo"
+    ^categories(2)="bar~Bar"
+    ^categories(3)="foobar~Foobar"
+
+    Posts:
+    ^posts(1,1,1)="lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    ^posts(2,1,1)="donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    ^posts(3,3,2)="curabitur-ullamcorper-ultricies~Curabitur ullamcorper ultricies~Curabitur ullamcorper ultricies nisi."
+    ^posts(4,3,2)="donec-vitae-sapien~Donec vitae sapien~Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante."
+
+    Comments:
+    ^comments(1,1)="This is awesome! Thank you."
+    ^comments(2,2)="Thank you so much for sharing this."
+
     Category fetched (3):
-    description: Foobar
+    data("description")="Foobar"
+    data("slug")="foobar"
 
     Post fetched (1):
-    slug: lorem-ipsum
-    title: Lorem ipsum
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    data("description")="Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    data("slug")="lorem-ipsum"
+    data("title")="Lorem ipsum"
 
     Posts fetched by category (3):
-    (3,3,2) = curabitur-ullamcorper-ultricies~Curabitur ullamcorper ultricies~Curabitur ullamcorper ultricies nisi.
-    (4,3,2) = donec-vitae-sapien~Donec vitae sapien~Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+    data(3,3,2)="curabitur-ullamcorper-ultricies~Curabitur ullamcorper ultricies~Curabitur ullamcorper ultricies nisi."
+    data(4,3,2)="donec-vitae-sapien~Donec vitae sapien~Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante."
 
     Posts fetched by user (1):
-    (1,1,1) = lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    (2,1,1) = donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+    data(1,1,1)="lorem-ipsum~Lorem ipsum~Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    data(2,1,1)="donec-pede-justo~Donec pede justo~Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
 
     Comment fetched (1):
-    description: This is awesome! Thank you.
+    data("description")="This is awesome! Thank you."
 
     Database successfully dropped!
 

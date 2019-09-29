@@ -157,7 +157,37 @@ Then run the example:
 
 ## 2. Functions
 
-> TODO.
+### [`Ascii.m`](https://github.com/programarivm/mumps-examples/blob/master/02-functions/Ascii.m)
+
+    The ASCII code of "a" is 97.
+
+### [`Char.m`](https://github.com/programarivm/mumps-examples/blob/master/02-functions/Char.m)
+
+    Alphabet:
+    abcdefghijklmnopqrstuvwxyz
+
+### [`Data.m`](https://github.com/programarivm/mumps-examples/blob/master/02-functions/Data.m)
+
+    Genealogical tree:
+    gtree(1)="Oliver"
+    gtree(1,1)="James"
+    gtree(1,1,1)="Harry"
+    gtree(1,1,1,1,1)="Robert"
+    gtree(1,1,2)="Emily"
+    gtree(1,2)="Amelia"
+    gtree(1,2,1)="Thomas"
+    gtree(1,2,2)="Jessica"
+
+    Data about a few nodes:
+    $d(gtree("foo")) is 0
+    $d(gtree(1,1,1,1,1)) is 1
+    $d(gtree(1,1,1,1)) is 10
+    $d(gtree(1)) is 11
+
+### [`Extract.m`](https://github.com/programarivm/mumps-examples/blob/master/02-functions/Extract.m)
+
+    Original string: Hello world!
+    Substring: Hello
 
 ## 3. Utility Routines
 
@@ -195,21 +225,6 @@ Then run the example:
 > For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/05-user-defined-routines/MyMathRoutines.m)
 
 ## 6. Databases
-
-### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/GenealogicalTree.m)
-
-    Genealogical tree:
-    ^gtree(0,1,1) is Jessica
-    $data(^gtree(0,2)) is 0
-    $data(^gtree(0,1,1,1)) is 1
-    $data(^gtree(0,0,0,0,0)) is 10
-    $data(^gtree(0)) is 11
-
-    Removing tree...
-    $data(^gtree(0,2)) is 0
-    $data(^gtree(0,1,1,1)) is 0
-    $data(^gtree(0,0,0,0,0)) is 0
-    $data(^gtree(0)) is 0
 
 ### [`basic-sql-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-crud/Main.m)
 

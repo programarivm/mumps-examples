@@ -172,9 +172,9 @@ Then run the example:
     Enter n: 9
     F(9) = 34
 
-## 3. Routines
+## 3. User Defined Routines
 
-### [`Main.m`](https://github.com/programarivm/mumps-examples/blob/master/03-routines/Main.m)
+### [`Main.m`](https://github.com/programarivm/mumps-examples/blob/master/03-user-defined-routines/Main.m)
 
     Hello!
     Enter n: 9
@@ -184,7 +184,7 @@ Then run the example:
     factorialByVal(9) = 362880
     factorialByRef(9) = 362880
 
-> For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/03-routines/MyMathRoutines.m)
+> For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/03-user-defined-routines/MyMathRoutines.m)
 
 ## 4. Databases
 

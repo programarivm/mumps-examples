@@ -58,11 +58,11 @@ To uninstall GT.M:
 
 Copy the example of your choice into `$gtmdir/$gtmver/r`:
 
-    cp -r <your-folder>/mumps-examples/04-databases/basic-sql-blog/* $gtmdir/$gtmver/r
+    cp -r <your-folder>/mumps-examples/06-databases/basic-sql-blog/* $gtmdir/$gtmver/r
 
 Or alternatively create a symbolic link:
 
-    ln -s <your-folder>/mumps-examples/04-databases/basic-sql-blog/*  ~/.fis-gtm/V6.3-003A_x86_64/r
+    ln -s <your-folder>/mumps-examples/06-databases/basic-sql-blog/*  ~/.fis-gtm/V6.3-003A_x86_64/r
 
 Then run the example:
 
@@ -155,26 +155,34 @@ Then run the example:
 
 > The output obtained is the same as that in [`Arrays.m`](https://github.com/programarivm/mumps-examples/blob/master/01-the-very-basics/Arrays.m)
 
-## 2. User Defined Functions
+## 2. Functions
 
-### [`FactorialByReference.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/FactorialByReference.m)
+> TODO.
+
+## 3. Utility Routines
+
+> TODO.
+
+## 4. User Defined Functions
+
+### [`FactorialByReference.m`](https://github.com/programarivm/mumps-examples/blob/master/04-user-defined-functions/FactorialByReference.m)
 
     Enter n: 5
     5! = 120
 
-### [`FactorialByValue.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/FactorialByValue.m)
+### [`FactorialByValue.m`](https://github.com/programarivm/mumps-examples/blob/master/04-user-defined-functions/FactorialByValue.m)
 
     Enter n: 5
     5! = 120
 
-### [`Fibonacci.m`](https://github.com/programarivm/mumps-examples/blob/master/02-user-defined-functions/Fibonacci.m)
+### [`Fibonacci.m`](https://github.com/programarivm/mumps-examples/blob/master/04-user-defined-functions/Fibonacci.m)
 
     Enter n: 9
     F(9) = 34
 
-## 3. User Defined Routines
+## 5. User Defined Routines
 
-### [`Main.m`](https://github.com/programarivm/mumps-examples/blob/master/03-user-defined-routines/Main.m)
+### [`Main.m`](https://github.com/programarivm/mumps-examples/blob/master/05-user-defined-routines/Main.m)
 
     Hello!
     Enter n: 9
@@ -184,11 +192,11 @@ Then run the example:
     factorialByVal(9) = 362880
     factorialByRef(9) = 362880
 
-> For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/03-user-defined-routines/MyMathRoutines.m)
+> For further details also visit [MyMathRoutines.m](https://github.com/programarivm/mumps-examples/blob/master/05-user-defined-routines/MyMathRoutines.m)
 
-## 4. Databases
+## 6. Databases
 
-### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/GenealogicalTree.m)
+### [`GenealogicalTree.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/GenealogicalTree.m)
 
     Genealogical tree:
     ^gtree(0,1,1) is Jessica
@@ -203,7 +211,7 @@ Then run the example:
     $data(^gtree(0,0,0,0,0)) is 0
     $data(^gtree(0)) is 0
 
-### [`basic-sql-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/Main.m)
+### [`basic-sql-crud/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-crud/Main.m)
 
     User successfully created!
     User successfully created!
@@ -231,10 +239,10 @@ Then run the example:
 
 For further details also visit:
 
-- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/routines/Database.m)
-- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-crud/routines/User.m)
+- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-crud/routines/Database.m)
+- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-crud/routines/User.m)
 
-### [`basic-sql-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/Main.m)
+### [`basic-sql-blog/Main.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/Main.m)
 
     Category fetched (3):
     description: Foobar
@@ -259,11 +267,11 @@ For further details also visit:
 
 For further details also visit:
 
-- [`Category.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Category.m)
-- [`Comment.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Comment.m)
-- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Database.m)
-- [`Post.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/Post.m)
-- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/04-databases/basic-sql-blog/routines/User.m)
+- [`Category.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/routines/Category.m)
+- [`Comment.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/routines/Comment.m)
+- [`Database.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/routines/Database.m)
+- [`Post.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/routines/Post.m)
+- [`User.m`](https://github.com/programarivm/mumps-examples/blob/master/06-databases/basic-sql-blog/routines/User.m)
 
 ---
 
